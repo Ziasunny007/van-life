@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
+}
+
+.navbar {
+  /* border: 1px solid black; */
+  background-color: #fef5ed;
+  /* padding: 1.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.navCeneter {
+  width: 90vw;
+  /* border: 1px solid teal; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.homepage,
+.aboutpage {
+  background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Additional styles */
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.aboutpage {
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/22/21/52/creux-du-van-779929_1280.jpg");
+}
+
+.homepageCopy,
+.aboutpageCopy {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fffdfc;
+}
+
+.homecopy2,
+.aboutcopy2 {
+  top: 35%;
+}
+
+.btn {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  background-color: orange;
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  bottom: 0px;
+  position: relative;
+  top: 70%;
+  border-radius: 0.2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fffdfc;
+  color: black;
+}
+
+.logo {
+  font-weight: bold;
+}
